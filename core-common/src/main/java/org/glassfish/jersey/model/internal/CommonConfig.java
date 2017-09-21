@@ -102,7 +102,7 @@ public class CommonConfig implements FeatureContext, ExtendedConfig {
     private final Map<String, Object> immutablePropertiesView;
     private final Collection<String> immutablePropertyNames;
     /**
-     * Configured providers, does not include features and binders.
+     * Configured providers and binders, does not include features.
      */
     private final ComponentBag componentBag;
     /**
